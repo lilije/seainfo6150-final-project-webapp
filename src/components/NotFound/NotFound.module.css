@@ -1,0 +1,12 @@
+.content {
+  padding-bottom: 80px;
+  height: 100vh;
+  width: 100%;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  background-image: url(https://pixelz.cc/wp-content/uploads/2018/07/404-not-found-graffiti-uhd-4k-wallpaper.jpg);
+}

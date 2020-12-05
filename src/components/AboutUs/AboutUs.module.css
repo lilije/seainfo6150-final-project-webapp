@@ -1,0 +1,54 @@
+.content {
+  padding-bottom: 80px;
+}
+
+.fristRow {
+  height: 400px;
+  width: 100%;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  background-image: url(https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2550&q=80);
+}
+
+.fristRowContent {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.fristRowContentRight {
+  width: 100%;
+  text-align: center;
+}
+
+.fristRowTitle, h1 {
+  color: #008600;
+}
+
+.secondRow {
+  padding-top: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 250px;
+}
+
+p {
+  font-size: 20px;
+  color: #525F7F;
+}
+
+@media screen and (min-width: 1200px) {
+  .fristRowContent {
+    width: 50%;
+  }
+  
+  .fristRowContentRight {
+    width: 50%;
+  }
+}

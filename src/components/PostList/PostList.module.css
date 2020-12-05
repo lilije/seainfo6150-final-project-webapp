@@ -1,0 +1,158 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1500px;
+  padding-bottom: 80px;
+}
+
+.topContent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.title {
+  color: #4AE6CE;
+  font-weight: 600;
+}
+
+.subtitle {
+  color:  #293963;
+  font-size: 24px;
+}
+
+.post {
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.top {
+  margin-top: 100px;
+}
+
+.price {
+  color: #FF9800;
+  font-weight: 600;
+  margin-left: 60px;
+}
+
+h2 { color: #293963; }
+
+
+img {
+  width: 100%;
+  max-width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.author {
+  color: #4AE6CE;
+  font-weight: 600;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 30px;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.secondRow {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.secondRowContent {
+  padding: 20px;
+}
+
+.secondRowContentImage {
+  width: 80px;
+}
+
+.secondRowContentTitle {
+  margin: 20px 0;
+}
+
+.thirdRow {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+  text-align: center;
+  justify-content: center;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  background-image: url(https://images.unsplash.com/photo-1576867757603-05b134ebc379?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80);
+}
+
+.thirdRowContent {
+  height: 500px;
+  width: 100%;
+  flex-direction: column;
+  background-color: #fff;
+  opacity: .6;
+}
+
+.thirdRowContentTitle {
+  font-size: 60px;
+  color: #008600;
+  padding: 20px 0;
+}
+
+.thirdRowContentSubTitle {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 800px) {
+  .post {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .secondRow {
+    flex-direction: row;
+  }
+  
+  .innerContainer {
+    width: 40%;
+  }
+  
+  .secondRowContent {
+    width: 33%;
+  }
+  
+  .thirdRowContent {
+    height: 200px;
+    width: 60%;
+    flex-direction: column;
+    background-color: #fff;
+    opacity: .6;
+  }
+  
+  .post {
+    width: 32%;
+  }
+}

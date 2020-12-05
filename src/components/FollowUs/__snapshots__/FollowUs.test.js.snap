@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the FollowUs component correctly 1`] = `
+<div>
+  <div
+    class="content"
+  >
+    <div
+      class="firstRow"
+    >
+      <div
+        class="firstRowContent"
+      >
+        <div
+          class="firstRowContentLeft"
+        >
+          <img
+            alt="product"
+            src="https://images.unsplash.com/photo-1546173078-a7d5f578b31c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80"
+          />
+        </div>
+        <div
+          class="firstRowContentRight"
+        >
+          <div>
+            <div>
+              <div
+                class="firstRowContentRightTop"
+              >
+                <h2>
+                  Get free recipes and special offers delivered to your inbox every week!
+                </h2>
+              </div>
+              <form
+                class="firstRowContentRightCenter"
+              >
+                <input
+                  aria-label="Email Address"
+                  class="emailInput"
+                  maxlength="255"
+                  name="user[email]"
+                  placeholder="Email Address"
+                  size="255"
+                  type="email"
+                />
+                <input
+                  aria-label="Submit"
+                  class="emailSubmit"
+                  data-disable-with="submit"
+                  name="commit"
+                  type="submit"
+                  value="Submit"
+                />
+              </form>
+            </div>
+          </div>
+          <div
+            class="firstRowContentRightBottom"
+          >
+            <img
+              alt="social media"
+              class="socialMedia"
+              src="https://www.flaticon.com/svg/static/icons/svg/1051/1051258.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

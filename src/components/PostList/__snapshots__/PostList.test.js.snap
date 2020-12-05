@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostList tests renders correctly 1`] = `
+<div>
+  <div
+    class="top"
+  >
+    <div
+      class="root"
+    >
+      <div
+        class="topContent"
+      >
+        <div
+          class="innerContainer"
+        >
+          <h2
+            class="title"
+          >
+            SIMPLIFY DINNER
+          </h2>
+          <p
+            class="subtitle"
+          >
+            Fresh weekly meal kits customized to your liking and starting at $6.99 per serving.
+          </p>
+        </div>
+        <div
+          class="secondRow"
+        >
+          <div
+            class="secondRowContent"
+          >
+            <div>
+              <img
+                alt="post"
+                class="secondRowContentImage"
+                src="https://www.flaticon.com/svg/static/icons/svg/3830/3830217.svg"
+              />
+            </div>
+            <div
+              class="secondRowContentTitle"
+            >
+              Select
+            </div>
+            <div>
+              Carb conscious, calorie conscious, vegetarian – we’ve got lots of options to fit your schedule and diet.
+            </div>
+          </div>
+          <div
+            class="secondRowContent"
+          >
+            <div>
+              <img
+                alt="post"
+                class="secondRowContentImage"
+                src="https://www.flaticon.com/svg/static/icons/svg/1300/1300455.svg"
+              />
+            </div>
+            <div
+              class="secondRowContentTitle"
+            >
+              Customize It
+            </div>
+            <div>
+              Use our Customize It feature to upgrade, swap, or double up proteins on select meals.
+            </div>
+          </div>
+          <div
+            class="secondRowContent"
+          >
+            <div>
+              <img
+                alt="post"
+                class="secondRowContentImage"
+                src="https://www.flaticon.com/premium-icon/icons/svg/2454/2454273.svg"
+              />
+            </div>
+            <div
+              class="secondRowContentTitle"
+            >
+              Enjoy
+            </div>
+            <div>
+              Effortlessly create and plate your meals in no time. Dinner is solved!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="thirdRow"
+      >
+        <div
+          class="thirdRowContent"
+        >
+          <div
+            class="thirdRowContentTitle"
+          >
+            More Than a Meal Kit
+          </div>
+          <div
+            class="thirdRowContentSubTitle"
+          >
+            Weekly recipe rotations for all skill levels and dietary preferences means there's always something new and exciting to cook.
+          </div>
+        </div>
+      </div>
+      <a
+        class="post"
+        href="/post/undefined"
+      >
+        <img
+          alt="post"
+          src="https://homechef.imgix.net/https%3A%2F%2Fasset.homechef.com%2Fuploads%2Fmeal%2Fplated%2F11888%2F419362.002.01SpanishPorkTacos_Ecomm_copy.jpg?ixlib=rails-1.1.0&w=850&auto=format&s=eadb858afc60591a00b0df808ee2a2b3"
+        />
+        <div
+          class="bottom"
+        >
+          <h2 />
+          <div>
+            <span
+              class="author"
+            >
+              By 
+              lili
+            </span>
+            <span
+              class="price"
+            >
+              $
+              16
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

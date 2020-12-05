@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Dropdown component correctly 1`] = `
+<div>
+  <div
+    class="dropdown"
+  >
+    <div
+      class="dropdowntoggle dropdownlistitem"
+    >
+      Food Categories
+    </div>
+    <ul
+      class="dropdownlist "
+    >
+      <a
+        class="dropdownlistitem "
+        href="/categories/breakfast"
+      >
+        Breakfast
+      </a>
+      <a
+        class="dropdownlistitem "
+        href="/categories/lunch"
+      >
+        Lunch
+      </a>
+      <a
+        class="dropdownlistitem "
+        href="/categories/dinner"
+      >
+        Dinner
+      </a>
+      <a
+        class="dropdownlistitem "
+        href="/categories/burger"
+      >
+        Burger
+      </a>
+      <a
+        class="dropdownlistitem "
+        href="/categories/chinese food"
+      >
+        Chinese Food
+      </a>
+      <a
+        class="dropdownlistitem "
+        href="/categories/sea food"
+      >
+        Sea Food
+      </a>
+      <a
+        class="dropdownlistitem "
+        href="/categories/taco"
+      >
+        Taco
+      </a>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Categories component correctly 1`] = `
+<div>
+  <div
+    class="top"
+  >
+    <div
+      class="root"
+    >
+      <a
+        class="post"
+        href="/post/2VQc41XP6ewfAyfN2HZ93n"
+      >
+        <img
+          alt="post"
+          src="https://homechef.imgix.net/https%3A%2F%2Fasset.homechef.com%2Fuploads%2Fmeal%2Fplated%2F11888%2F419362.002.01SpanishPorkTacos_Ecomm_copy.jpg?ixlib=rails-1.1.0&w=850&auto=format&s=eadb858afc60591a00b0df808ee2a2b3"
+        />
+        <div
+          class="bottom"
+        >
+          <h2>
+            Smoky Pork Tacos
+          </h2>
+          <div>
+            <span
+              class="author"
+            >
+              By 
+              lili
+            </span>
+            <span
+              class="price"
+            >
+              $
+              6
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders the FollowUs component correctly 1`] = `
+<div>
+  <div
+    class="top"
+  >
+    <div
+      class="root"
+    >
+      <a
+        class="post"
+        href="/post/2VQc41XP6ewfAyfN2HZ93n"
+      >
+        <img
+          alt="post"
+          src="https://homechef.imgix.net/https%3A%2F%2Fasset.homechef.com%2Fuploads%2Fmeal%2Fplated%2F11888%2F419362.002.01SpanishPorkTacos_Ecomm_copy.jpg?ixlib=rails-1.1.0&w=850&auto=format&s=eadb858afc60591a00b0df808ee2a2b3"
+        />
+        <div
+          class="bottom"
+        >
+          <h2>
+            Smoky Pork Tacos
+          </h2>
+          <div>
+            <span
+              class="author"
+            >
+              By 
+              lili
+            </span>
+            <span
+              class="price"
+            >
+              $
+              6
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

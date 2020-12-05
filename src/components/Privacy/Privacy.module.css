@@ -1,0 +1,11 @@
+.content {
+  max-width: 1200px;
+  text-align: center;
+  margin:0 auto;
+  padding-bottom: 120px;
+  padding-top: 80px;
+}
+
+.info {
+  text-align: left;
+}

@@ -1,0 +1,106 @@
+.content {
+  padding-bottom: 80px;
+}
+
+.firstRow {
+  padding-top: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 160px;
+}
+
+.firstRowContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstRowContentLeft {
+  width: 100%;
+}
+
+img { 
+  width: 100%;
+}
+
+.firstRowContentRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+  padding-top: 80px;
+}
+
+.firstRowContentRightTop {
+  text-align: center;
+}
+
+.firstRowContentRightCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.emailInput, .nameInput, .msgInput {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0 20px 0;
+}
+
+.msgInput {
+  height: 100%;
+}
+
+
+.emailSubmit {
+  background-color: #008600;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+}
+
+.firstRowContentRightBottom {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.update {
+  text-align: center;
+  font-size: 24px;
+  color: #008600;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1200px) {
+  .firstRowContent {
+    flex-direction: row;
+  }
+  
+  .firstRowContentLeft {
+    width: 50%;
+    padding: 30px;
+  }
+  
+  .firstRowContentRight {
+    padding-top: 0;
+    width: 60%;
+    padding-left: 80px;
+  }
+  
+  .emailInput, .nameInput, .msgInput {
+    width: 380px;
+  }
+  
+  .msgInput {
+    height: 200px;
+  }
+  
+  .emailSubmit {
+    width: 414px;
+    cursor: pointer;
+  }
+}

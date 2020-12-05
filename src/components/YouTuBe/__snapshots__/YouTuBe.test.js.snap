@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the YouTuBe component correctly 1`] = `
+<div>
+  <div
+    class="content"
+  >
+    <iframe
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen=""
+      frameborder="0"
+      height="315"
+      src="https://www.youtube.com/embed/2AuPF74q-fY"
+      title="1"
+    />
+  </div>
+</div>
+`;
